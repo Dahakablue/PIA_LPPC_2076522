@@ -13,7 +13,7 @@ mensaje = """<head><strong>Practica 12</strong><head/></br>
 email = EmailMessage()
 email["From"] = remitente
 email["To"] = destinatario
-email["Subject"] = "Prueba de envío (script python) 1756734"
+email["Subject"] = "Prueba de envío (script python) 2076522"
 email.set_content(mensaje, subtype="html")
 #Metodo open para abrir el archivo que queremos adjuntar
 with open("C:\Users\Alan Lara\OneDrive\Escritorio\evidencias\LPCfcfm_cool.png", "rb") as f:
